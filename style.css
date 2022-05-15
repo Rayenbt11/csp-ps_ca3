@@ -5,17 +5,10 @@ body {
   display: flex;
   align-items: start;
 
-  height: 100vh;
-  background: linear-gradient(
-    to right,
-    rgb(250, 255, 158) 0%,
-    #FFFF00 10%,
-    rgb(99, 140, 255) 100%)
-
-
-
+ background-image: url(https://wallpaperaccess.com/full/1491613.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
-
 div {
   border-radius: 3px;
 }
@@ -62,7 +55,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #4b7eff;
+  background: #d2dfff;
 }
 
 
