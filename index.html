@@ -1,41 +1,95 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Trello Clone</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/35d88399d5.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="main">
-  <div class="list">
-    <div class="title removable editable">This is a list</div>
-    <div class="content">
-      <div class="card removable editable">This is a card</div>
-      <div class="card removable editable" style="">Look, another card!</div>
-    </div>
-    <div class="add-card editable">Add another card</div>
-  </div>
-  <div class="list">
-    <div class="title removable editable">Another list</div>
-    <div class="content">
-      <div class="card removable editable">Hello world!</div>
-    </div>
-    <div class="add-card editable">Add another card</div>
-  </div>
-  <div class="list">
-    <div class="title removable editable">Empty list</div>
-    <div class="content"></div>
-    <div class="add-card editable">Add another card</div>
-  </div>
-</div>
 
-<div class="add-list">
-  <div class="title editable">Add another list</div>
-</div>
-<!-- partial -->
-  <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script><script  src="./script.js"></script>
+<body>
+  <!-- partial:index.partial.html -->
+
+
+  </div>
+  <div id="main">
+    <div class="list">
+      <div class="title removable editable">Product Backlog</div>
+      <div class="content">
+        <div class="card removable editable">Improve the UX Design</div>
+        <div class="card removable editable" style="">Improve the UI Design</div>
+        <div class="card removable editable" style="">Add Map</div>
+        <div class="card removable editable" style="">Add Location</div>
+        <div class="card removable editable" style="">Assuring the driver's safety</div>
+        <div class="card removable editable" style="">Connect it with the original Dublin Bus App</div>
+
+      </div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+    <div class="list">
+      <div class="title removable editable">Current Sprint Backlog</div>
+      <div class="content">
+        <div class="card removable editable">Developping the Application</div>
+        <!--it's a basic application so the development process won't last ages-->
+        <div class="card removable editable">Ensuring the Security of Users</div>
+        <div class="card removable editable">Protecting Users Data</div>
+        <div class="card removable editable">Placing the required items</div>
+        <div class="card removable editable">test it on a few different buses(old ones, new ones,etc..)</div>
+
+      </div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+    <div class="list">
+      <div class="title removable editable">In Progess</div>
+      <div class="content">
+        <div class="card removable editable">App Development</div>
+        <div class="card removable editable">Ensuring the app is safe and user-friendly</div>
+        <div class="card removable editable">Release a demo of the app on Play Store, App store,etc..</div>
+
+
+      </div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+    <div class="list">
+      <div class="title removable editable">Review</div>
+      <div class="content">
+        <div class="card removable editable">testing the turnstiles</div>
+        <div class="card removable editable">testing the buttons</div>
+        <div class="card removable editable">Have a trial of the project on few buses</div>
+
+      </div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+    <div class="list">
+      <div class="title removable editable">Done</div>
+      <div class="content">
+        <div class="card removable editable">Gather information about the product before starting</div>
+        <div class="card removable editable">gather the Dublin Bus' needed data(times, buses, locations,etc..) </div>
+        <div class="card removable editable">Cost Planning </div>
+        <div class="card removable editable">Time planning</div>
+
+      </div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+    <div class="list">
+      <div class="title removable editable">Empty list</div>
+      <div class="content"></div>
+      <div class="add-card editable">Add another card</div>
+    </div>
+  </div>
+
+  <div class="add-list">
+    <div class="title editable">Add another list</div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
