@@ -1,16 +1,16 @@
 body {
   font-family: sans-serif;
   color: #172b4d;
-  background-color: #f1f914;
+  background-color: #fff200;
   display: flex;
   align-items: start;
 
   height: 100vh;
   background: linear-gradient(
     to right,
-    rgb(252, 255, 186) 0%,
-    rgb(231, 255, 19) 50%,
-    rgb(152, 180, 255) 100%)
+    rgb(250, 255, 158) 0%,
+    #FFFF00 10%,
+    rgb(99, 140, 255) 100%)
 
 
 
